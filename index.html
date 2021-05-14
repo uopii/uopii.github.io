@@ -1,0 +1,291 @@
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uopi | Home</title>
+<link rel="icon" href="logo3.png" type="image/png">
+
+<style type="text/css">
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    background: #f1f2f3;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 4vmin;
+    color: #15171A;
+    font-size: 2rem;
+    line-height: 1.4em;
+    font-family: sans-serif;
+    background: #f1f2f3;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+    text-shadow: none;
+    background: #cbeafb;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 0 0 4vmin;
+    padding: 40px;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow:
+        0 50px 100px -20px rgb(50 50 93 / 8%),
+        0 30px 60px -30px rgb(0 0 0 / 13%),
+        0 10px 20px -10px rgb(0 0 0 / 8%);
+}
+h1 {
+    margin: 0 0 0.3em;
+    font-size: 4rem;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+p {
+    margin: 0 0 40px;
+    opacity: 0.7;
+    font-weight: 400;
+}
+img {
+    display: block;
+    margin: 0 auto 40px;
+}
+@media (max-width: 500px) {
+    body { font-size: 1.8rem; }
+    h1 { font-size: 3.4rem; }
+}
+.submit {
+
+  background-color: #111;
+
+  color: #ffffff !important;
+
+  width: 60px;
+
+  height: 30px;
+
+  border: 3px solid #ffffff!important;
+
+}
+ #body-animated {
+
+	width: 100%;
+
+	height: 4px;
+
+	color: #fff;
+
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+
+	background-size: 250% 250%;
+
+	-webkit-animation: Gradient 1s ease infinite;
+
+	-moz-animation: Gradient 1s ease infinite;
+
+	animation: Gradient 1s ease infinite;
+}
+ body, body * {
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+	font-family: "Roboto";
+
+}
+#loading {
+
+		-webkit-animation: rotation 2s infinite linear;
+
+}
+body.dark {
+
+	background: #111;
+
+}
+nav {
+
+	width: 100vw;
+
+	height: 80px;
+
+	background: #FFF;
+
+	box-shadow: 0 5px 45px 2px rgba(0, 0, 0, 0.05);
+
+	display: grid;
+
+	grid-template-columns: 1fr 2fr 1fr;
+
+	justify-content: center;
+
+	align-items: center;
+
+}
+
+
+
+nav.dark {
+
+	background: #232323;
+
+}
+
+
+label {
+
+	width: 40px;
+
+	height: 16px;
+
+	background: #CCC;
+
+	border-radius: 1000px;
+
+	position: relative;
+
+	cursor: pointer;
+
+}
+
+
+
+label::before {
+
+	content: "";
+
+	display: block;
+
+	width: 22px;
+
+	height: 22px;
+
+	background: #FFF;
+
+	border-radius: 100px;
+
+	position: absolute;
+
+	left: 0;
+
+	top: -3px;
+
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+	transition: 0.2s;
+
+}
+
+
+
+label.switchbtn::before {
+
+	left: 20px;
+
+}
+
+
+
+/* Fading Style */
+
+.fading {
+
+	animation: fading 10s infinite
+
+}
+.submit {
+
+  background-color: #111;
+
+  color: #ff0000;
+
+  width: 60px;
+
+  height: 30px;
+
+  border: 3px solid #ff0000;
+
+}
+.divide {
+
+	padding: 0;
+
+	margin: 0;
+
+	margin-bottom: 30px;
+
+	background: #1e5799;
+
+	background: -moz-linear-gradient(left,  #1e5799 0%, #f300ff 50%, #e0ff00 100%);
+
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(50%,#f300ff), color-stop(100%,#e0ff00));
+
+	background: -webkit-linear-gradient(left,  #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+
+	background: -o-linear-gradient(left,  #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+
+	background: -ms-linear-gradient(left,  #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+
+	/* background: linear-gradient(to right,  #1e5799 0%,#f300ff 50%,#e0ff00 100%); */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e0ff00',GradientType=1 );
+
+	height: 1.9px;
+
+	border-bottom: 1px solid #000;
+
+
+</style>
+
+</head>
+<body>
+
+<div id="body-animated"></div>
+
+<div class="content">
+    <h1>uopi.gihub.io</h1>
+    <p> Więcej info niedługo ale będzie coś gitowego 
+    <center><h4>wpisz kod </h4>
+		<input type="text" name="auth" id="auth" required=""><br><br>
+		<input class="submit" type="submit" value="login">
+</center>
+	<h1>liczba odwiedzin:</h1><p> <a href="https://bit.ly/2RQ5Ybm" title="uopitoszef"><font color="#0E0E0E"><script src="http://www.licz.pl/counter.php?name=uopitonosi&start=WARTOSC-STARTOWA"></script></font></a><a href="https://uopii.github.io/"><img src="http://www.licz.pl/donotalterthecode.gif" width="10" height="10" border="0"></a>
+	<center><div class="dc" style="bottom: 8px; right: 16px;"><a target="_blank" href="https://discord.gg/QN7p4Jd8Fa"><img src="https://i.imgur.com/KIUOEPC.png" height="75px" width="75px"></a></div>
+
+</p>
+</div>
+<b><b>
+    <div id="footer-line"></div>
+    <div id="footer">
+        <div class="footer-text">
+            
+            <div class="text">
+                <a>Contact us: <i class="fab fa-discord"></i>uopi#9018</a>
+                <p>Uopi ©2021</p>
+
+</body></html>
